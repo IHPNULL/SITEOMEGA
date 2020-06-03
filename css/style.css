@@ -22,13 +22,13 @@ body {
     padding: 0;
     font-size: 15px;
     color: #6A6A6A;
-    background: #fff;
+    background: #333;
 }
 
 h1,
 h2,
 h3 {
-    color: #323232;
+    color: white;
 }
 
 .body-inner {
@@ -126,6 +126,7 @@ h1 {
 }
 
 h2 {
+    margin: 2em;
     font-size: 32px;
     line-height: 40px;
     font-weight: 400;
@@ -250,7 +251,7 @@ blockquote {
 }
 
 .angle:before {
-    background: #fff;
+    background: rgb(255, 0, 0);
     content: "";
     height: 75px;
     top: -37px;
@@ -542,8 +543,11 @@ blockquote {
 .owl-controls .owl-buttons div {
     display: inline-block;
 }
-
-
+ 
+.filter-button {
+    margin-top: 25px;
+}
+ 
 /* Input form */
 
 .form-control {
@@ -563,6 +567,12 @@ blockquote {
 
 
 /*-- Flex slider --*/
+
+.mais {
+margin: 5em;
+background-color: #333;
+color: white;
+}
 
 .portfolio-slider .flexslider,
 .ts-flex-slider .flexslider {
@@ -1409,7 +1419,7 @@ ul.navbar-nav>li>a i {
 ================================================== */
 
 .portfolio {
-    background: #f5f5f5;
+    background: #333;
     padding-bottom: 0;
 }
 
@@ -1443,7 +1453,7 @@ ul.navbar-nav>li>a i {
 }
 
 .isotope-nav ul li a {
-    color: #323232;
+    color: white;
     padding: 5px 15px 8px;
     border: 1px solid #ddd;
     -webkit-transition: all 0.3s;
@@ -1723,8 +1733,8 @@ figure.effect-oscar:hover img {
     position: absolute;
     display: block;
     float: left;
-    border-left: 120px solid #fff;
-    border-right: 120px solid #fff;
+    border-left: 120px solid #333;
+    border-right: 120px solid #333;
 }
 
 .img-top {
@@ -2127,8 +2137,9 @@ figure.effect-oscar:hover img {
 ================================================== */
 
 .clients {
-    color: #fff;
-    padding-bottom: 80px;
+    zoom: 1.5;
+    color: #333333;
+    padding-bottom: 7em;
 }
 
 .clients-content {
@@ -2137,12 +2148,12 @@ figure.effect-oscar:hover img {
 
 .clients h2.title {
     border-left: 0;
-    color: #fff;
+    color: #333333;
 }
 
 .client-carousel .item a {
     margin-right: 20px;
-    border: 1px solid #e7e7e7;
+    border: 1px solid #333333;
     border-radius: 3px;
     display: inline-block;
     padding: 10px;
