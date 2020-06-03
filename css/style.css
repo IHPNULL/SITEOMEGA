@@ -441,6 +441,10 @@ blockquote {
     color: rgba(0, 0, 0, .5);
 }
 
+.icons {
+   margin-bottom: 300px;
+}
+
 .icon-pentagon:before {
     border-left: 20px solid rgba(0, 0, 0, 0);
     border-right: 20px solid rgba(0, 0, 0, 0);
