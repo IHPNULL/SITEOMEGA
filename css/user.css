@@ -1,0 +1,92 @@
+:root{
+    --bgcolor: #750000;
+    --light: #f7f7f7;
+    --defaultGray: #dddddd;
+    --darkGray: #555555;
+}
+
+body{
+    margin: 0px;
+}
+
+.Container{
+    background-color: var(--bgcolor);
+    background-image: url(../images/abstract-art-blur-circle-96381.jpg);
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Access{
+    width: 430px;
+    height: 460px;
+    background-color: var(--light);
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Logo{
+    width: 30%;
+    padding: 7% 0% 0% 0%;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+input{
+    border-color: var(--defaultGray);
+    border-style: solid;
+    width: 97%;
+    height: 45px;
+    border-radius: 7px;
+    padding: 0% 3% 0% 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    margin-bottom: 15px;
+}
+
+.InputType{
+    padding: 40px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+label{
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+    color: var(--darkGray);
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: var(--bgcolor);
+    color: var(--light);
+    border-style: none;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px 0px 0px 0px;
+    font-size: 13pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button:hover{
+    background-color: #550000;
+    transition-duration: 100ms;
+}
+
+a{
+    color: var(--bgcolor);
+    margin-top: 25px;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10.5pt;
+}
